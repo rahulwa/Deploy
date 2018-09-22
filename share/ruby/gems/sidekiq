@@ -1,0 +1,3 @@
+dependencies-alpine = ""
+isProcess = True
+defaultStartCommand = bundle exec sidekiq

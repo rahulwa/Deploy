@@ -1,0 +1,2 @@
+dependencies-alpine = libffi-dev
+isLibrary = true

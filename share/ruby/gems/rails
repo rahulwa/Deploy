@@ -1,0 +1,5 @@
+dependencies-alpine = git, nodejs, tzdata, ca-certificates
+isLibrary = false
+defaultStartCommand = rails server -b 0.0.0.0
+exposePort = 3000
+extraDependencies-alpine = nodejs

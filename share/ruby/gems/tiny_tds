@@ -1,0 +1,2 @@
+dependencies-alpine = freetds-dev
+isLibrary = true

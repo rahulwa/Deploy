@@ -1,0 +1,5 @@
+FROM python:3.7-alpine3.7
+LABEL maintainer="dev@synup.com"
+ENV BUILD_PACKAGES
+RUN apk add --no-cache --update $BUILD_PACKAGES 
+WORKDIR /synup/interactions

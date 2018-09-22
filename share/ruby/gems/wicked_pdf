@@ -1,0 +1,1 @@
+dependencies = "apk add --no-cache --update wkhtmltopdf wkhtmltopdf-dev --repository http://dl-3.alpinelinux.org/alpine/edge/testing/"

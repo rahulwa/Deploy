@@ -1,0 +1,2 @@
+dependencies-alpine = ncurses
+isLibrary = true

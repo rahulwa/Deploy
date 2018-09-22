@@ -1,0 +1,10 @@
+dependencies-alpine =
+isLibrary = true
+dependencies = apk add --no-cache --virtual lgp-dependencies git cmake python2 flex bison libc-dev linux-headers libxml2-dev libxslt-dev && \
+            git clone https://github.com/graphql/libgraphqlparser.git /tmp/libgraphqlparser && \
+            mkdir -p /tmp/libgraphqlparser/build && \
+            cd /tmp/libgraphqlparser/build && \
+            cmake .. && make && make install && \
+            rm -rf /tmp/libgraphqlparser && \
+            apk del lgp-dependencies
+            END

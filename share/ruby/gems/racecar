@@ -1,0 +1,3 @@
+dependencies-alpine = librdkafka librdkafka-dev
+isLibrary = false
+defaultStartCommand = bundle exec racecar CONSUMER-CLASS

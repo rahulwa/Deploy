@@ -1,0 +1,2 @@
+dependencies-alpine = librdkafka librdkafka-dev
+isLibrary = true
