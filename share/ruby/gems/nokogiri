@@ -1,3 +1,4 @@
 dependencies-alpine = pkgconfig libxml2-dev libxslt-dev
 isLibrary = true
-installConfig = bundle config --global build.nokogiri --use-system-libraries
+buildConfig = bundle config --global build.nokogiri --use-system-libraries
+            END

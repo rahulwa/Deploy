@@ -2,6 +2,7 @@ FROM ruby:2.5.1-alpine3.7
 LABEL maintainer="ji@rahulwa.com"
 ENV DEFAULT_PACKAGES build-base
 RUN apk add --no-cache --update $DEFAULT_PACKAGES \
+# Other dependencies
 
 ENV APP_PATH /app
 WORKDIR $APP_PATH
